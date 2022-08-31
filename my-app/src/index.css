@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: Azure;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+   }
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+    
+        color: #2a363b;
+}
+
+a:hover,
+a.focus {
+        color: #2196f3;
+           
+            transition: all 250ms linear;
+}
+
+button {
+    font-weight: 500;
+        font-size: 18px;
+    padding: 5px 10px;
+        color: #2a363b;
+    cursor: pointer;
+    background-color: #B0C4DE;
+    border-radius: 4px;
+  
+    }
+
+
+button:hover,
+button:focus {
+    color: #2196f3;
+/* background-color: #ADD8E6; */
+    transition: all 250ms linear;
+}
