@@ -33,6 +33,6 @@ export const getReviews = async (id) => {
 
 export const getMovieSearch = async (request) => {
     const { data } = await axios(`${BASE_URL}/search/movie?api_key=${API_KEY}&query=${request}`);
- 
+
     return data;
 }
